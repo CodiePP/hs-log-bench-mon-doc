@@ -1,7 +1,7 @@
 DOC = IOHK-Monitoring
 
-SRCDIR1 = ../iohk-monitoring/src
-SRCDIR2 = ../contra-tracer/src
+SRCDIR1 = ../iohk-monitoring-framework/iohk-monitoring/src
+SRCDIR2 = ../iohk-monitoring-framework/contra-tracer/src
 SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Configuration.lhs \
 					$(SRCDIR1)/Cardano/BM/Configuration/Model.lhs \
@@ -43,8 +43,8 @@ SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Trace.lhs \
 					$(SRCDIR2)/Control/Tracer.lhs \
 
-TSTDIR1 = ../iohk-monitoring/test
-TSTDIR2 = ../contra-tracer/test
+TSTDIR1 = ../iohk-monitoring-framework/iohk-monitoring/test
+TSTDIR2 = ../iohk-monitoring-framework/contra-tracer/test
 TESTS = $(TSTDIR1)/Test.lhs \
 				$(TSTDIR1)/Cardano/BM/Test/Aggregated.lhs \
 				$(TSTDIR1)/Cardano/BM/Test/Configuration.lhs \
@@ -55,7 +55,7 @@ TESTS = $(TSTDIR1)/Test.lhs \
 				$(TSTDIR1)/Cardano/BM/Test/Tracer.lhs \
 				$(TSTDIR1)/Cardano/BM/Arbitrary/Aggregated.lhs \
 
-EXAMPLES = ../iohk-monitoring/examples/complex/Main.lhs ../iohk-monitoring/examples/simple/Main.lhs
+EXAMPLES = ../iohk-monitoring-framework/iohk-monitoring/examples/complex/Main.lhs ../iohk-monitoring-framework/iohk-monitoring/examples/simple/Main.lhs
 
 TeXs = aggregation.tex configuration.tex monitoring.tex mu-benchmarks.tex output-selection.tex requirements.tex traces.tex
 

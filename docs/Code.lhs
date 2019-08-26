@@ -36,7 +36,7 @@
         Denis Shevchenko
   \and
         Andreas Triantafyllos}
-\date{April 2019}
+\date{August 2019}
 
 \begin{document}
 
@@ -318,71 +318,71 @@ thus specializes its interface.}\label{fig:overview}
 
 \subsection{Simple example showing plain logging}\label{sec:examplesimple}
 
-%include ../iohk-monitoring/examples/simple/Main.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/examples/simple/Main.lhs
 
 \subsection{Complex example showing logging, aggregation, and observing |IO| actions}\label{sec:examplecomplex}
 
-%include ../iohk-monitoring/examples/complex/Main.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/examples/complex/Main.lhs
 
 \subsection{Performance example for time measurements}\label{sec:exampleperformance}
 
-%include ../iohk-monitoring/examples/performance/Main.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/examples/performance/Main.lhs
 
 \section{Code listings - contra-tracer package}
 
-%include ../contra-tracer/src/Control/Tracer.lhs
+%include ../iohk-monitoring-framework/contra-tracer/src/Control/Tracer.lhs
 
 
 \section{Code listings - iohk-monitoring package}
 
 
-%include ../iohk-monitoring/src/Cardano/BM/Observer/STM.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Observer/Monadic.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Observer/STM.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Observer/Monadic.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Trace.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Trace.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Setup.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Setup.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Counters.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Counters/Common.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Counters/Dummy.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Counters/Linux.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Counters.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Counters/Common.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Counters/Dummy.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Counters/Linux.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Data/Aggregated.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/AggregatedKind.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Backend.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/BackendKind.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Configuration.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Counter.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/LogItem.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Observable.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Output.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Rotation.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Severity.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/SubTrace.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Trace.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Data/Tracer.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Aggregated.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/AggregatedKind.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Backend.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/BackendKind.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Configuration.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Counter.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/LogItem.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Observable.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Output.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Rotation.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Severity.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/SubTrace.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Trace.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Tracer.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Configuration.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Configuration/Model.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Configuration/Static.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Configuration.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Configuration/Model.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Configuration/Static.lhs
 
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Switchboard.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Log.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/LogBuffer.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/EKGView.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Editor.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Graylog.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Aggregation.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Monitoring.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/Prometheus.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/ExternalAbstraction.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/TraceAcceptor.lhs
-%include ../iohk-monitoring/src/Cardano/BM/Backend/TraceForwarder.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Switchboard.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Log.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/LogBuffer.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/EKGView.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Editor.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Graylog.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Aggregation.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Monitoring.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Prometheus.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/ExternalAbstraction.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/TraceAcceptor.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/TraceForwarder.lhs
 
 \chapter{Testing}
 
-%include ../iohk-monitoring/test/Test.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/test/Test.lhs
 
 \printindex
 

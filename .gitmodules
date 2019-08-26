@@ -1,0 +1,4 @@
+[submodule "iohk-monitoring-framework"]
+	path = iohk-monitoring-framework
+	url = https://github.com/input-output-hk/iohk-monitoring-framework.git
+	branch = master

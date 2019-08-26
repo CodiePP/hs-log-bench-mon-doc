@@ -1,4 +1,4 @@
-# Documentation for [iohk-monitoring-framework](https://github.com/input-output-hk/iohk-monitoring-framework)
+# Documentation for (iohk-monitoring-framework)[https://github.com/input-output-hk/iohk-monitoring-framework]
 
 The generated (IOHK-Monitoring.pdf)[docs/IOHK-Monitoring.pdf] can be found in the `docs` directory.
 

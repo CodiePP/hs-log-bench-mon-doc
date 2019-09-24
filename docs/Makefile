@@ -2,6 +2,7 @@ DOC = IOHK-Monitoring
 
 SRCDIR1 = ../iohk-monitoring-framework/iohk-monitoring/src
 SRCDIR2 = ../iohk-monitoring-framework/contra-tracer/src
+SRCDIR3 = ../iohk-monitoring-framework/plugins
 SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Configuration.lhs \
 					$(SRCDIR1)/Cardano/BM/Configuration/Model.lhs \
@@ -27,14 +28,8 @@ SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Data/Tracer.lhs \
 					$(SRCDIR1)/Cardano/BM/Observer/Monadic.lhs \
 					$(SRCDIR1)/Cardano/BM/Observer/STM.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/Aggregation.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/Editor.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/EKGView.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/Graylog.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/Log.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/LogBuffer.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/Monitoring.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/Prometheus.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/Switchboard.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/TraceAcceptor.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/TraceForwarder.lhs \
@@ -42,6 +37,12 @@ SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Setup.lhs \
 					$(SRCDIR1)/Cardano/BM/Trace.lhs \
 					$(SRCDIR2)/Control/Tracer.lhs \
+					$(SRCDIR3)/backend-aggregation/src/Cardano/BM/Backend/Aggregation.lhs \
+					$(SRCDIR3)/backend-editor/src/Cardano/BM/Backend/Editor.lhs \
+					$(SRCDIR3)/backend-ekg/src/Cardano/BM/Backend/EKGView.lhs \
+					$(SRCDIR3)/backend-graylog/src/Cardano/BM/Backend/Graylog.lhs \
+					$(SRCDIR3)/backend-monitoring/src/Cardano/BM/Backend/Monitoring.lhs \
+					$(SRCDIR3)/backend-prometheus/src/Cardano/BM/Backend/Prometheus.lhs \
 
 TSTDIR1 = ../iohk-monitoring-framework/iohk-monitoring/test
 TSTDIR2 = ../iohk-monitoring-framework/contra-tracer/test
@@ -55,7 +56,7 @@ TESTS = $(TSTDIR1)/Test.lhs \
 				$(TSTDIR1)/Cardano/BM/Test/Tracer.lhs \
 				$(TSTDIR1)/Cardano/BM/Arbitrary/Aggregated.lhs \
 
-EXAMPLES = ../iohk-monitoring-framework/iohk-monitoring/examples/complex/Main.lhs ../iohk-monitoring-framework/iohk-monitoring/examples/simple/Main.lhs
+EXAMPLES = ../iohk-monitoring-framework/examples/complex/Main.lhs ../iohk-monitoring-framework/examples/simple/Main.lhs
 
 TeXs = aggregation.tex configuration.tex monitoring.tex mu-benchmarks.tex output-selection.tex requirements.tex traces.tex
 

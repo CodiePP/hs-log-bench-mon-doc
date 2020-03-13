@@ -339,7 +339,10 @@ thus specializes its interface.}\label{fig:overview}
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Observer/STM.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Observer/Monadic.lhs
 
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Tracing.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Tracer.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Trace.lhs
+%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/ElidingTracer.lhs
 
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Setup.lhs
 
@@ -356,7 +359,6 @@ thus specializes its interface.}\label{fig:overview}
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Counter.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/LogItem.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Observable.lhs
-%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Output.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Rotation.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/Severity.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Data/SubTrace.lhs
@@ -370,15 +372,14 @@ thus specializes its interface.}\label{fig:overview}
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Switchboard.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/Log.lhs
 %include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/LogBuffer.lhs
-%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/TraceAcceptor.lhs
-%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/TraceForwarder.lhs
-%include ../iohk-monitoring-framework/iohk-monitoring/src/Cardano/BM/Backend/ExternalAbstraction.lhs
-%include ../iohk-monitoring-framework/plugins/backend-ekg/src/Cardano/BM/Backend/EKGView.lhs
-%include ../iohk-monitoring-framework/plugins/backend-editor/src/Cardano/BM/Backend/Editor.lhs
-%include ../iohk-monitoring-framework/plugins/backend-graylog/src/Cardano/BM/Backend/Graylog.lhs
 %include ../iohk-monitoring-framework/plugins/backend-aggregation/src/Cardano/BM/Backend/Aggregation.lhs
+%include ../iohk-monitoring-framework/plugins/backend-editor/src/Cardano/BM/Backend/Editor.lhs
+%include ../iohk-monitoring-framework/plugins/backend-ekg/src/Cardano/BM/Backend/EKGView.lhs
+%include ../iohk-monitoring-framework/plugins/backend-ekg/src/Cardano/BM/Backend/Prometheus.lhs
+%include ../iohk-monitoring-framework/plugins/backend-graylog/src/Cardano/BM/Backend/Graylog.lhs
 %include ../iohk-monitoring-framework/plugins/backend-monitoring/src/Cardano/BM/Backend/Monitoring.lhs
-%include ../iohk-monitoring-framework/plugins/backend-prometheus/src/Cardano/BM/Backend/Prometheus.lhs
+%include ../iohk-monitoring-framework/plugins/backend-trace-acceptor/src/Cardano/BM/Backend/TraceAcceptor.lhs
+%include ../iohk-monitoring-framework/plugins/backend-trace-forwarder/src/Cardano/BM/Backend/TraceForwarder.lhs
 
 \chapter{Testing}
 

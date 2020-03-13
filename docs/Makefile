@@ -31,18 +31,21 @@ SOURCES = Code.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/Log.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/LogBuffer.lhs \
 					$(SRCDIR1)/Cardano/BM/Backend/Switchboard.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/TraceAcceptor.lhs \
-					$(SRCDIR1)/Cardano/BM/Backend/TraceForwarder.lhs \
 					$(SRCDIR1)/Cardano/BM/Rotator.lhs \
 					$(SRCDIR1)/Cardano/BM/Setup.lhs \
+					$(SRCDIR1)/Cardano/BM/Tracing.lhs \
+					$(SRCDIR1)/Cardano/BM/Tracer.lhs \
 					$(SRCDIR1)/Cardano/BM/Trace.lhs \
+					$(SRCDIR1)/Cardano/BM/ElidingTracer.lhs \
 					$(SRCDIR2)/Control/Tracer.lhs \
 					$(SRCDIR3)/backend-aggregation/src/Cardano/BM/Backend/Aggregation.lhs \
 					$(SRCDIR3)/backend-editor/src/Cardano/BM/Backend/Editor.lhs \
 					$(SRCDIR3)/backend-ekg/src/Cardano/BM/Backend/EKGView.lhs \
+					$(SRCDIR3)/backend-ekg/src/Cardano/BM/Backend/Prometheus.lhs \
 					$(SRCDIR3)/backend-graylog/src/Cardano/BM/Backend/Graylog.lhs \
 					$(SRCDIR3)/backend-monitoring/src/Cardano/BM/Backend/Monitoring.lhs \
-					$(SRCDIR3)/backend-prometheus/src/Cardano/BM/Backend/Prometheus.lhs \
+					$(SRCDIR3)/backend-trace-acceptor/src/Cardano/BM/Backend/TraceAcceptor.lhs \
+					$(SRCDIR3)/backend-trace-forwarder/src/Cardano/BM/Backend/TraceForwarder.lhs \
 
 TSTDIR1 = ../iohk-monitoring-framework/iohk-monitoring/test
 TSTDIR2 = ../iohk-monitoring-framework/contra-tracer/test

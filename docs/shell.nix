@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   buildInputs = [ haskellPackages.lhs2tex
                   (texlive.combine {
                     inherit (texlive)
-                      scheme-small
+                      scheme-medium
 
                       stmaryrd kpfonts geometry hyperref
 

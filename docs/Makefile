@@ -46,6 +46,7 @@ SOURCES = Code.lhs \
 					$(SRCDIR3)/backend-monitoring/src/Cardano/BM/Backend/Monitoring.lhs \
 					$(SRCDIR3)/backend-trace-acceptor/src/Cardano/BM/Backend/TraceAcceptor.lhs \
 					$(SRCDIR3)/backend-trace-forwarder/src/Cardano/BM/Backend/TraceForwarder.lhs \
+					$(SRCDIR3)/scribe-systemd/src/Cardano/BM/Scribe/Systemd.lhs \
 
 TSTDIR1 = ../iohk-monitoring-framework/iohk-monitoring/test
 TSTDIR2 = ../iohk-monitoring-framework/contra-tracer/test

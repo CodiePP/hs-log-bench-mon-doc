@@ -380,6 +380,7 @@ thus specializes its interface.}\label{fig:overview}
 %include ../iohk-monitoring-framework/plugins/backend-monitoring/src/Cardano/BM/Backend/Monitoring.lhs
 %include ../iohk-monitoring-framework/plugins/backend-trace-acceptor/src/Cardano/BM/Backend/TraceAcceptor.lhs
 %include ../iohk-monitoring-framework/plugins/backend-trace-forwarder/src/Cardano/BM/Backend/TraceForwarder.lhs
+%include ../iohk-monitoring-framework/plugins/scribe-systemd/src/Cardano/BM/Scribe/Systemd.lhs
 
 \chapter{Testing}
 
